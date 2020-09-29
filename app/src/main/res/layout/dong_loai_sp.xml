@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageViewHinhAnh"
+        android:layout_width="149dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"></ImageView>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textviewLoaiSP"
+        android:layout_toRightOf="@id/imageViewHinhAnh"
+        android:layout_margin="20dp"
+        android:text="SAN PHAM"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        ></TextView>
+</RelativeLayout>
+
